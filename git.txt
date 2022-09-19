@@ -1,3 +1,5 @@
+	GIT COMMANDS
+
 1. Install Git:
 	To install git in linux, just type the following command in the terminal {sudo apt-get install git}.
 	And for windows you can download it from git-scm site.
