@@ -1,0 +1,47 @@
+	GIT COMMANDS
+
+1. Install Git:
+	To install git in linux, just type the following command in the terminal {sudo apt-get install git}.
+	And for windows you can download it from git-scm site.
+
+Instead of making different files for different changes we can store them as different versions of a single file.
+Git is used to track how many versions of a file have been made so far and what are the changes that have been made.
+ Git is a version management system and github is cloud storage.
+ remote -> somewhere else, somewhere far.
+
+2. To initialise git ->
+	git init
+	And to remove git -> rm -rf .git
+
+3. To add to the staging area ->
+	git add.
+	
+4. To commit changes and make a local repository-> 
+	git commit -m "Message"
+
+5. To see the changes made -> 	
+	git diff -> it gives us the difference between the staged file and the changes done right now.
+	git diff --staged -> it gives the differences between the committed file and the file in the staged 			
+	area.
+
+6. To make new branch ->
+	git brach branch1
+
+7. To switch to diffrent branch ->
+	git checkout branh1
+
+8. To merge two branches ->
+	git merge branch1
+
+9. To delete any branch ->
+	git branch -d branch1
+
+10. To connect to github repository ->
+	git remote add origin "link of the repository" {remote is the name of the local repo/ alias for the 
+	link}
+
+11. To push to the github ->
+	git push origin master
+	
+_______________________________________________________________________________________________________
+
